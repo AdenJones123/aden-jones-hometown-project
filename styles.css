@@ -1,0 +1,114 @@
+
+
+body{
+  background-color: #f7f7f7;
+  color: #327d81;
+}
+h1{
+  font-size: 2em;
+}
+h2{
+  font-size: 1.7em;
+}
+p{
+  font-size: 1.15em;
+  color: black;
+}
+#Home{
+  text-align: center;
+}
+a{
+  display: contents;
+  color: #24565c;
+}
+li{
+  display: inline;
+  margin: 15px;
+  font-size: 1.3em;
+  font-weight: bold;
+  border-radius: 3px;
+  padding: 6px 18px;
+}
+a:hover{
+  color: #327d81;
+}
+ul{
+  display: block;
+  text-align: center;
+}
+.nav-bar{
+  border:1px solid;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: #e2ecea;
+  border: 2px solid #327d81;
+}
+.home-page, .about{
+  display: flex;
+  background-color: #e2ecea;
+  border-radius: 7px;
+  padding: 10px;
+  margin: 17px auto;
+  width: 59%;
+  border: 2px solid #327d81;
+}
+.home-img{
+  display: flex;
+  width: 40%;
+  align-items: start;
+}
+.home-text, .about-text{
+  display: flex;
+  flex-direction: column;
+  margin-left: 6px;
+}
+
+.table-mountain, .vNa-waterfront, .sea-point{
+  display: block;
+  width: 30%;
+  padding: 4px;
+  border: 2px solid;
+  border-radius: 7px;
+  border: 2px solid #327d81;
+  background-color: #e2ecea;
+}
+.image-1, .image-2, .image-3{
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 93%;
+  text-align: center;
+}
+.ttd{
+  color: #327d81;
+  font-size: 1.7em;
+  font-weight: bold;
+}
+#Things-to-do{
+  display: flex;
+  align-items: top;
+  justify-content: space-evenly;
+  margin: 10px auto;
+}
+.about-img{
+  width: 30%;
+  min-height: 270px;
+  border: 2px solid #327d81;
+  border-radius: 100%;
+}
+.contact{
+  text-align: center;
+  border-top: 2px solid #327d81;
+}
+.fa {
+  margin: 7px 20px;
+  padding: 20px;
+  font-size: 1em;
+  width: 1.6%;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #327d81;
+  border-radius: 100%;
+}
+.fa:hover{
+  width:1.7%;
+}
