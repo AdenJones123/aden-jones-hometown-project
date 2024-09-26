@@ -1,8 +1,18 @@
-
-
-body{
+body.light-mode{
   background-color: #f7f7f7;
   color: #327d81;
+}
+body.dark-mode{
+  background-color: #080808;
+  color: #327d81;
+}
+button{
+  display: inline;
+  border-radius: 100%;
+  margin: 7px 20px;
+  padding: 20px;
+  font-size: 1em;
+  width: 6%;
 }
 h1{
   font-size: 2em;
